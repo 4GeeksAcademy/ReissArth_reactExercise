@@ -1,18 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import NavBar from './components/NavBar';
+import JumboTron from './components/JumboTron';
+import Card from './components/Card';
 
-//Bootstrap
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap"
-
-// index.css'
-import '../styles/index.css'
-
-// components
-import Home from './components/Home';
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+    <NavBar/>
+    <JumboTron/>
+    <div className="container my-5">
+      <h1 className="text-center mb-4 fw-bold">Personajes bien poderosos nada mas para hacer algo original:</h1>
+      <div className="d-flex flex-wrap justify-content-center gap-3">
+        <Card id="kratos" />
+        <Card id="master-chief" />
+        <Card id="leon" />
+        <Card id="lara" />
+        <Card id="dante" />
+      </div>
+    </div>
+  </React.StrictMode>
+);
