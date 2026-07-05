@@ -3,7 +3,7 @@ import React from 'react'
 const NavBar = () => {
 return (
 <div classname="row d-flex justify-content-between">
-  <nav className="navbar m-2 navbar-expand-sm rounded-3 navbar-light bg-secondary p-2">
+  <nav className="navbar navbar-expand-sm navbar-light bg-secondary fixed-top p-2">
     <div className="container">
       <a className="navbar-brand" href="https://media1.tenor.com/m/uDcqZD_xrKwAAAAC/what-are-you-looking-for-brandon-james.gif">Start Bootstrap</a>
       <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"

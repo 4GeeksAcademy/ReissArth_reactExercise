@@ -9,9 +9,9 @@ root.render(
   <React.StrictMode>
     <NavBar/>
     <JumboTron/>
-    <div className="container my-5">
+    <div className="row justify-content-center">
       <h1 className="text-center mb-4 fw-bold">Personajes bien poderosos nada mas para hacer algo original:</h1>
-      <div className="d-flex flex-wrap justify-content-center gap-3">
+      <div className="d-flex flex-wrap justify-content-center gap-3 mb-5">
         <Card id="kratos" />
         <Card id="master-chief" />
         <Card id="leon" />
