@@ -1,7 +1,6 @@
 import React from "react";
 
 const Card = ({nombre, imagen, frase}) => {
-  const character = personajes.find((p) => p.id === id);
 
   return (
     <div className="card shadow-sm" style={{ width: "16rem" }}>
