@@ -1,5 +1,4 @@
 import React from "react";
-
 const Card = ({nombre, imagen, frase}) => {
 
   return (
